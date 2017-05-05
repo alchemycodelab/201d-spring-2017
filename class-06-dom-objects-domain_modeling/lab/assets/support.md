@@ -1,11 +1,11 @@
 #Problem domain:
-Your friend Pat has come up with a business idea by combining two signature Seattle icons: Pat has developed a recipe for a coffee-time confection called Salmon Cookies.
+Your friend Pat from Seattle has come up with a business idea by combining two signature Seattle icons: salmon and coffee. Pat has developed a recipe for a coffee-time confection called Salmon Cookies.
 
 They're cookies made into the shape of a salmon, and actually made with salmon (though the fish is ground up so fine that you can't even taste it!) that is the ideal match for a steaming cup of coffee on a gray Seattle morning. Or gray Seattle afternoon... whatever. Tourists will go gaga for them, locals will begrudgingly fall in love with them, and Pat will make a ton of money.
 
-But, Pat needs some help with the branding of the business, as well as some help with internal data management for the company, and has enlisted your assistance because of your extensive and proven work in developing web applications.
+But, Pat needs some help with the branding of the business, as well as some help with internal data management for the company, and has enlisted your assistance because of your extensive and proven work in developing web applications. 
 
-Pat's Salmon Cookies, soon with franchises all over town, needs to calculate the number of cookies each location must make every day so that it can manage its supplies inventory and baking schedule. The number of cookies to make depends on the hours of operation (6:00 AM to 8:00 PM for all locations) and a few factors unique to each location:
+Pat's Salmon Cookies, soon with franchises all over town (and hopes of extending to Portland), needs to calculate the number of cookies each location must make every day so that it can manage its supply inventory and baking schedule. The number of cookies to make depends on the hours of operation (6:00 AM to 8:00 PM for all locations) and a few factors unique to each location:
 
 - The minimum number of customers per hour.
 - The maximum number of customers per hour.
