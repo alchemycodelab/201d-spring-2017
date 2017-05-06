@@ -1,11 +1,11 @@
 #Problem domain:
-Your friend Pat from Seattle has come up with a business idea by combining two signature Seattle icons: salmon and coffee. Pat has developed a recipe for a coffee-time confection called Salmon Cookies.
+Your friend Pat from Seattle combined two signature Seattle icons, salmon and coffee, and started a super successful business. Pat developed a recipe for a coffee-time confection called Salmon Cookies. His shops are doing so well in Seattle that he wanted to expand to Portland.
 
-They're cookies made into the shape of a salmon, and actually made with salmon (though the fish is ground up so fine that you can't even taste it!) that is the ideal match for a steaming cup of coffee on a gray Seattle morning. Or gray Seattle afternoon... whatever. Tourists will go gaga for them, locals will begrudgingly fall in love with them, and Pat will make a ton of money.
+The cookies are made into the shape of a salmon, and are actually made with salmon (though the fish is ground up so fine that you can't even taste it!).They are the ideal match for a steaming cup of coffee on a PNW morning. Or PNW afternoon... whatever. Portland tourists will go gaga for them, locals will begrudgingly fall in love with them, and Pat will make a ton more money.
 
 But, Pat needs some help with the branding of the business, as well as some help with internal data management for the company, and has enlisted your assistance because of your extensive and proven work in developing web applications. 
 
-Pat's Salmon Cookies, soon with franchises all over town (and hopes of extending to Portland), needs to calculate the number of cookies each location must make every day so that it can manage its supply inventory and baking schedule. The number of cookies to make depends on the hours of operation (6:00 AM to 8:00 PM for all locations) and a few factors unique to each location:
+Pat's Salmon Cookies, soon with franchises all over Portland, needs to calculate the number of cookies each location must make every day so that it can manage its supply inventory and baking schedule. The number of cookies to make depends on the hours of operation (6:00 AM to 8:00 PM for all locations) and a few factors unique to each location:
 
 - The minimum number of customers per hour.
 - The maximum number of customers per hour.
@@ -60,11 +60,11 @@ Here are the starting numbers that you'll need to build these objects:
 
 Location        | Min / Cust | Max / Cust | Avg Cookie / Sale
 ----------------|------------|------------|-------------------
-1st and Pike      |      23    |     65     |        6.3
-SeaTac Airport  |      3     |     24     |        1.2
-Seattle Center     |      11    |     38     |        3.7
-Capitol Hill |      20    |     38     |        2.3
-Alki            |      2     |     16     |        4.6
+PDX Airport      |      23    |     65     |        6.3
+Pioneer Square  |      3     |     24     |        1.2
+Powell's     |      11    |     38     |        3.7
+St. John's |      20    |     38     |        2.3
+Waterfront            |      2     |     16     |        4.6
 
 These numbers are simply Pat's estimates for now, but eventually, once there has been some history collected that provides more accurate numbers, we'll want the ability to update these numbers for each location, and to add/remove locations. But we'll not build all of that today. **Make sure to make each location is its own JavaScript object**.
 
