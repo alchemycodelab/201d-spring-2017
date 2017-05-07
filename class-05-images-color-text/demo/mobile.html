@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Basically Twitter</title>
+        <meta name="viewport" content="initial-scale=1">
+
+        <style>
+            * {
+                border: dotted 1px blue;
+            }
+
+            main, main article { border-color: purple; }
+            p, img { border: none; }
+
+            html, body {
+                height: 100%;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                border: none;
+            }
+
+            header {
+                height: 50px;
+                width: 100%;
+                position: fixed;
+                top: 0;
+            }
+
+            .navigation {
+                padding: 0;
+
+                display: flex;
+                justify-content: space-around;
+                align-content: center;
+
+                display: -webkit-flex; 
+                -webkit-justify-content: space-around;
+                -webkit-align-content: center;
+            }
+
+            .navigation li {
+                list-style-type: none;
+            }
+
+            main {
+                margin-top: 50px;
+                padding: 5%;
+            }
+
+            article {
+                margin: 5% 0;
+            }
+
+            img {
+                width: 100%;
+            }
+            
+            /* when our page is > 600px */
+            @media ( min-width: 600px ) {
+                article {
+                    display: inline-block;
+                    width: 200px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!--  Create a mobile newsfeed layout: header, list of articles with responsive content -->
+        <header>
+            <ul class="navigation">
+                <li>Home</li>                
+                <li>Moments</li>                
+                <li>Profile</li>                
+                <li>Cheetos</li>                
+            </ul>
+        </header>
+        <main>
+            <article>
+                <img src="https://media.giphy.com/media/11CBvrIbpc4IgM/giphy.gif">
+                <p> 140 character poem ipsum not hat wearing keyboards on elephants and daisies on yellow pants</p>
+            </article>
+            <article>
+                <img src="https://media.giphy.com/media/11CBvrIbpc4IgM/giphy.gif">
+                <p> 140 character poem ipsum not hat wearing keyboards on elephants and daisies on yellow pants</p>
+            </article>
+            <article>
+                <img src="https://media.giphy.com/media/11CBvrIbpc4IgM/giphy.gif">
+                <p> 140 character poem ipsum not hat wearing keyboards on elephants and daisies on yellow pants</p>
+            </article>
+            <article>
+                <img src="https://media.giphy.com/media/11CBvrIbpc4IgM/giphy.gif">
+                <p> 140 character poem ipsum not hat wearing keyboards on elephants and daisies on yellow pants</p>
+            </article>
+            <article>
+                <img src="https://media.giphy.com/media/11CBvrIbpc4IgM/giphy.gif">
+                <p> 140 character poem ipsum not hat wearing keyboards on elephants and daisies on yellow pants</p>
+            </article>
+            <article>
+                <img src="https://media.giphy.com/media/11CBvrIbpc4IgM/giphy.gif">
+                <p> 140 character poem ipsum not hat wearing keyboards on elephants and daisies on yellow pants</p>
+            </article>
+        </main>
+    </body>
+</html>
