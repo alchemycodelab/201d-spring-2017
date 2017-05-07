@@ -30,7 +30,13 @@
     * Accessing and reassigning properties
     * [dan's useful notes on objects](dan-objects.md)
 * The DOM
-    * 
+    * it's a MODEL!!!!!
+    * accessing existing elements with JavaScript
+    * creating and adding elements with JavaScript
+* Today's Lab
+    * Yes, I know it's a lot of info to get through, but as a developer, it's now part of your job to translate human to computer. You got this. As always, we encourage you to pair with someone - writing your TODOs and objectives as a pair or mob is a great place to start.
+    * lots of repetition, but DON'T COPY PASTE YOUR STORE OBJECTS!!!! Type them out to gain practice 
+    of conceptualizing objects and getting familiar with their syntax.
 
 <hr></hr>
 
