@@ -17,6 +17,7 @@
     * [steven's](https://hpats67.github.io/memory-card/) | [code](https://github.com/hpats67/memory-card)
     * [yacht-zoe](https://yachtzoes.github.io/yachtzoe_project/game.html) | [code](https://github.com/yachtzoes/yachtzoe_project)
     * [madlibs](http://brandon-parker.github.io/mortality/index.html) | [code](https://github.com/Brandon-Parker/mortality)
+    * [drum kit](https://skyfriends.github.io/drum-machine/) | [code](https://github.com/skyfriends/drum-machine)
 *
 * Questions?
 
