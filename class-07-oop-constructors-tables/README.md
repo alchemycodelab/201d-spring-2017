@@ -1,9 +1,36 @@
-# Class 7: Object-Oriented Programming with Constructor Functions; HTML Tables
+## **Week 2: Working with the DOM**
+## Class #: Object-Oriented Programming with Constructor Functions; HTML Tables
 
-**Learning Objectives**
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
 
-As a result of completing Day 7 of Code 201, students will:
 
-- Be able to translate an object literal into a constructor function, as measured by successful completion of the daily code assignment
-- Be able to use the ‘prototype’ property to extend the inheritable properties and methods of a constructor function, as measured by successful completion of the daily code assignment
-- Be able to dynamically build an HTML table with JavaScript and render it to the DOM, as measured by successful completion of the daily code assignment
+<hr></hr>
+
+### Schedule
+1. Announcements & Resource sharing
+1. Code review 
+1. Object Oriented Programming aka OOP
+1. HTML Tables
+
+### Announcements
+* 
+*
+* Questions?
+
+## Learning Objectives
+- Translate an object literal into a constructor function.
+- Create instances of a model using a constructor function.
+- Extend the properties and methods of a constructor function using the `prototype` property.
+- Dynamically build an HTML table in the DOM using JavaScript.
+
+## Notes
+* OOP
+    * Constructor function
+        * make the computer do the work for us
+    * prototype property
+        * when to use prototype vs pass in arguments
+* HTML Tables
+
+<hr></hr>
+
+## Readings

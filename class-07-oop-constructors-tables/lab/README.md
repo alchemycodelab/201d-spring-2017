@@ -8,13 +8,13 @@ Let's replace your object literals for the salmon cookie stands with a single co
 
 Your code will end up with probably 1/4 the number of lines it had before refactoring, and every line of code you don't have is one you don't need to debug!
 
-See pages 106-109 in your textbook for a constructor example... and especially focus on 108 and 109. Also refer to the demo code from class that showed how we can view a constructor function as a translation of an object literal.
+See pages 106-109 in your textbook for a constructor example... and especially focus on 108 and 109.
 
 ## Replace the Lists with a Table
 
 We will also be replacing the lists of data for each store, and building a **single table of data** instead! Tables are much easier to read than lists, and presenting data in a table makes analysis more intuitive and comprehensive.
 
-What numbers should go into a table? Your client, Pat, has reviewed the lists of data you dutifully provided yesterday, and has decided that's actually not the best way to view the information. Here's what Jo wants:
+What numbers should go into a table? Your client, Pat, has reviewed the lists of data you dutifully provided yesterday, and has decided that's actually not the best way to view the information. Here's what Pat wants:
 
 - A table to show the total amount of projected cookie needs at each location, with the table displaying the cookie stand location, the total number of cookies needed for each location, an hourly breakdown of total cookies sales for each location, and [STRETCH GOAL] a row of totals for each column.
 - Here's what it should look like, in general (this example is for structural and layout purposes only, since you can style the table however you want):
@@ -45,4 +45,4 @@ What numbers should go into a table? Your client, Pat, has reviewed the lists of
 ## User Stories (Stretch... NOT REQUIRED)
 - As a developer, I will continue to work on design aspects of the public-facing page.
 - As a developer, to facilitate design work, I will build a style guide.
-- As a developer, to demonstrate to my client my ability to add value, I will create a second table that will help Jo manage staffing. Using the basic rubric that single Salmon Cookie Tosser can serve 20 customers per hour, and that each location should have a minimum of two Salmon Cookie Tossers on shift at all times, calculate how many Salmon Cookie Tossers are needed at each location each hour.
+- As a developer, to demonstrate to my client my ability to add value, I will create a second table that will help Pat manage staffing. Using the basic rubric that single Salmon Cookie Tosser can serve 20 customers per hour, and that each location should have a minimum of two Salmon Cookie Tossers on shift at all times, calculate how many Salmon Cookie Tossers are needed at each location each hour.
