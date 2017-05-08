@@ -1,10 +1,31 @@
-# Class 8: HTML Forms and JS Events
+## **Week 2: Working with the DOM**
+## Class 8: HTML Forms and JS Events
 
-**Learning Objectives**
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
 
-As a result of completing Day 8 of Code 201, students will:
 
-- Be able to add an input form to an HTML document with properly structured HTML including the necessary \<form>, \<input>, and <label> tags, as well as the useful but not necessary \<fieldset> tag, as measured by successful completion of the daily code assignment and a quiz administered in Canvas.
-- Demonstrate how to use JavaScript events with the .addEventListener() method on a DOM element (specifically, an HTML form), using either a named or anonymous event handler function, as measured by successful completion of the daily code assignment
-- Be able to add a new row to their data table(s) by storing, computing, and rendering data from the HTML form, as measured by successful completion of the daily code assignment
-- Be able to successfully pair program with a fellow student and manage the collaborative and version control aspects of working with Git (from the command line) and GitHub (in the browser), as measured by successful completion of the daily code assignment.
+<hr></hr>
+
+### Schedule
+1. Announcements & Resource sharing
+1. Code review || Follow along 
+1. Talk Topics
+
+### Announcements
+* 
+*
+* Questions?
+
+## Learning Objectives
+* (will be able to) __________ using _________.
+- Accept user input on a webpage using the HTML form.
+- Capture user input from a form using an event listener and event handler.
+- Update the DOM using user input.
+
+## Notes
+* Topic
+    * etc.
+
+<hr></hr>
+
+## Readings
