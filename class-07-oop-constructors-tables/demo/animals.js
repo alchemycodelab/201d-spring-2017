@@ -15,7 +15,7 @@ var cat = {
     speak: function () {
         console.log( sound.toUpperCase() + '!!' );
     }
-}
+};
 
 var bird = {
     sound: 'sqwak',
@@ -27,7 +27,7 @@ var bird = {
     speak: function () {
         console.log( sound.toUpperCase() );
     }
-}
+};
 
 var human = {
     sound: 'i have a brain',
@@ -39,4 +39,28 @@ var human = {
     speak: function () {
         console.log( sound.toUpperCase() );
     }
+};
+
+
+function Animal ( sound, behavior, food, habitat ) {
+    this.sound = sound;
+    this.behavior = behavior;
+    this.food = food;
+    this.habitat = habitat;
 }
+
+Animal.prototype.planet = 'earth'; 
+Animal.prototype.kingdom = 'animalia';
+
+Animal.prototype.speak = function () {
+    console.log ( this.sound.toUpperCase() + '!!' );
+}
+
+var mouse = new Animal ( 'sqeek' );
+mouse.speak(); // calls Animal.speak();
+
+var cat = new Animal ( 'meow' );
+cat.speak();
+
+// reassign cat's property speak to this new function
+cat.speak = function () { console.log ( this.sound + ' mouse' ); } // will not call Animal.speak()
