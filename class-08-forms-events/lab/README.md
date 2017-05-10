@@ -10,7 +10,7 @@ Here's some of the steps you'll need to take, but not necessarily in this order:
 - Don't forget \<fieldset>!
 - Use the constructor function as your guide to determine what input fields your form needs (hint: also consider what is passed in when creating instances!)
 - Your JS will need an event listener and and event handler, and also a variable to facilitate DOM access to the form.
-- As we saw in class, the event handler should use the take the data from the input field, pass it into the constructor function, and create a new instance of a cookie stand that then appends to the table.
+- As we saw in class, the event handler should take the data from the input field, pass it into the constructor function, and create a new instance of a cookie store that then appends to the table.
 - Are you going to do any error correction on input? You probably should. Look at what kind of input validation is built in to HTML5.
 - Build incrementally. Test frequently.
 - Be attentive to overall code structure.
