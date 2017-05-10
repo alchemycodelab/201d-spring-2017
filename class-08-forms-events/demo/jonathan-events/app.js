@@ -3,14 +3,16 @@ var uno = document.getElementById('uno');
 var dos = document.getElementById('dos');
 var tres = document.getElementById('tres');
 var sero = document.getElementById('sero');
+
 var unoClicks = 0;
 var globalClicks = 0;
 
-function globalClicks(){
+function globalClicks() {
   globalClicks += 1;
 }
 
-function increaseUno(){
+function increaseUno() {
+  console.log( 'one click' );
   unoClicks += 1;
   uno.textContent = 'click me to count: ' + unoClicks;
 }
@@ -26,6 +28,7 @@ function changeColor(){
 }
 
 function globalCount(){
+  console.log( 'global click' );
   if(globalClicks < 41){
     globalClicks += 1;
     sero.textContent = 'countdown: ' + ( 42 - globalClicks );
@@ -34,15 +37,19 @@ function globalCount(){
   }
 }
 
-uno.addEventListener('click', increaseUno);
-dos.addEventListener('dblclick', changeColor);
-tres.addEventListener('mouseover', increaseUno);
-tres.addEventListener('mouseover', changeColor);
-document.body.addEventListener('click', globalCount);
+uno.addEventListener('click', increaseUno );
+document.body.addEventListener('click', globalCount );
+
+
+// dos.addEventListener('dblclick', changeColor);
+
+// tres.addEventListener('mouseover', increaseUno );
+// tres.addEventListener('mouseover', changeColor );
+ 
 
 function secret(){
   sero.textContent = 'don\'t move';
-  document.body.addEventListener('mousemove', randomColor);
+  document.body.addEventListener( 'mousemove', randomColor );
 }
 
 function randomColor(){
