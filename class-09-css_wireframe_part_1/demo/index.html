@@ -47,23 +47,36 @@
         </div>
         <script>
             var hundred = document.getElementById( 'one-hundred' );
-            hundred.addEventListener( 'click', addScore );
+            hundred.addEventListener( 'click', function () { 
+                addScore( event, '100 is listening' );
+            });
             
             var fifty = document.getElementById( 'fifty' );
-            fifty.addEventListener( 'click', addScore );
+            fifty.addEventListener( 'click', function () {
+                addScore( event, '50 is listening' );
+            });
             
             var twenty = document.getElementById( 'twenty' );
-            twenty.addEventListener( 'click', addScore );
+            twenty.addEventListener( 'click', function () {
+                addScore( event, '20 is listening' );
+            });
             
             var ten = document.getElementById( 'ten' );
-            ten.addEventListener( 'click', addScore );
+            ten.addEventListener( 'click', function () {
+                addScore( event, '10 is listening' );
+            });
             
-            document.body.addEventListener( 'click', addScore );
+            document.body.addEventListener( 'click', function () {
+                addScore( event, 'body is listening' );
+            });
 
 
             var score = 0;
             function addScore ( event, listener ) {
-                var hit = event.target;
+                event.stopPropagation();
+
+                var hit = event.target;  // <section></section> that was clicked
+                console.log( listener );
                 
                 switch ( hit.id ) {
                     case 'one-hundred':
