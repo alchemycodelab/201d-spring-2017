@@ -10,7 +10,7 @@ Here's your other tasks for today:
 
 - Apply a similar style to the **sales.html** page.
 
-	### Stretch Goals (Not required! Do either one, both, or neither)
+	### Stretch Goals (Not required!)
 
 - Give your input form functionality to update the data for a location that is already in the table. This is going to require some additional pieces, such as:
 	- Some kind of `if` statement to test whether the inputted cookie stand location name matches one that is already in the table (or other mechanism to indicate which location to update)

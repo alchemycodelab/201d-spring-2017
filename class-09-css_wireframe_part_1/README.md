@@ -1,9 +1,46 @@
-# Class 9: Advanced Topics in CSS Layout
+## **Week 2: Working with the DOM**
+## Class 9: CSS Layout
 
-**Learning Objectives**
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
 
-As a result of completing Day 9 of Code 201, students will:
 
-- Have nailed down the functionality of their retail/data/table app, as measured by successful completion of the daily code assignments of the previous three days.
-- Demonstrate understanding of fundamental CSS layout principles including block, inline, normal, relative, absolute, float, and fixed, as measured by successful completion of the daily code assignment and on a quiz administered in Canvas
-- Demonstrate understanding of advanced CSS layout principles including fixed vs. liquid layouts, as well as grid systems, as measured by successful completion of the daily code assignment and on a quiz administered in Canvas
+<hr></hr>
+
+### Schedule
+1. Announcements & Resource sharing
+1. Code review
+1. HTML Layout: flexbox, frameworks
+1. JS Events pt 2.
+
+### Announcements
+* More Final Week project info! 
+    * 
+* Questions?
+
+## Learning Objectives
+- Style a webpage's layout, text, and images using CSS.
+- Create various types of layouts using CSS layout principles includng block, inline, relative, absolute, float, and fixed.
+
+## Notes
+* HTML Layout
+    * flexbox
+    * frameworks
+* CSS stylin'
+    * images
+    * text
+    * colors
+* JS Events
+    * event flow
+
+<hr></hr>
+
+## Readings
+
+None for this class, but Chapter 15 in your HTML book will be useful:
+- p.361: Key concepts in positioning (block/inline)
+- p.363-76: Controlling the position of elements (normal, relative, absolute, fixed, floating)
+- pp.377-8: Screen sizes and resolutions
+- p.379: Page sizes
+- p.381-6: Fixed & liquid layouts
+- p.387: Layout grids
+- p.391: CSS frameworks
