@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bubbly</title>
+        <style>
+            body {
+                height: 100%;
+                width: 100%;
+            }
+            #target {
+                margin: 30% auto;
+                height: 300px;
+                width: 300px;
+                position: relative;
+            }
+
+            section {
+                position: absolute;
+                margin: 0 auto;
+                padding: 12% 12%;
+                height: 50%;
+                width: 50%;
+                border-radius: 50%;
+                box-sizing: border-box;
+            }
+
+            .red {
+                background-color: red;
+            }
+
+            .white{
+                background-color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="target">
+            <section id="ten" class="red">
+                <section id="twenty" class="white">
+                    <section id="fifty" class="red">
+                        <section id="one-hundred" class="white">
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </div>
+        <script>
+            var hundred = document.getElementById( 'one-hundred' );
+            hundred.addEventListener( 'click', addScore );
+            
+            var fifty = document.getElementById( 'fifty' );
+            fifty.addEventListener( 'click', addScore );
+            
+            var twenty = document.getElementById( 'twenty' );
+            twenty.addEventListener( 'click', addScore );
+            
+            var ten = document.getElementById( 'ten' );
+            ten.addEventListener( 'click', addScore );
+            
+            document.body.addEventListener( 'click', addScore );
+
+
+            var score = 0;
+            function addScore ( event, listener ) {
+                var hit = event.target;
+                
+                switch ( hit.id ) {
+                    case 'one-hundred':
+                        score += 100;
+                        break;
+                    case 'fifty':
+                        score += 50;
+                        break;
+                    case 'twenty':
+                        score += 20;
+                        break;
+                    case 'ten':
+                        score += 10;
+                        break;
+                    default:
+                        console.log( 'miss!' );
+                        break;
+                }
+                
+                console.log( 'current score: ', score );
+            }
+        
+        </script>
+    </body>
+</html>
