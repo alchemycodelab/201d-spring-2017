@@ -23,7 +23,6 @@ options.forEach( function ( option ) {
     optEle.type = 'radio';
     optEle.name = 'activity';
     optEle.value = option;
-    console.log( optEle );
 });
 
 `````
