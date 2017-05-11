@@ -12,6 +12,22 @@
 1. Event bubbling vs capturing
 1. HTML Layout: flexbox, frameworks
 
+### Morning Challenge
+```` 
+// write out the elements that will be added to the DOM 
+
+var options = [ 'kayaking', 'tree climbing', 'sleeping' ];
+
+options.forEach( function ( option ) {
+    var optEle = document.createElement( 'input' );
+    optEle.type = 'radio';
+    optEle.name = 'activity';
+    optEle.value = option;
+    console.log( optEle );
+});
+
+`````
+
 ### Announcements
 * Quiz 5 is due tonight!
 * More Final Week project info. We'll be forming teams in a week.   
