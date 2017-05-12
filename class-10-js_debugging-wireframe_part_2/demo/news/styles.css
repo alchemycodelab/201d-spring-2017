@@ -1,0 +1,93 @@
+/*                            container elements and universal styles */
+body, html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px 0;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*                              header styles  */
+header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 6px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+    padding: 20px 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header nav a {
+    font-size: 1.25rem;
+    color: white;
+}
+
+
+/*                              main content styles */
+
+article {
+    max-width: 800px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 auto;
+}
+
+#author-info {
+    font-size: 1rem;
+    line-height: initial;
+    border-top: dashed 2px black;
+    padding-top: 20px 0;
+    text-align: left;
+    overflow: hidden;
+
+    background-color: white;
+    color: black;
+}
+
+#author-info img {
+    height: 200px;
+}
+
+#author-info img.author-image {
+    float: left;
+    margin-right: 20px;
+}
+
+#author-info img.svg {
+    height: 50px;
+    width: 50px;
+}
+
+#author-info h3 {
+    display: inline;
+}
