@@ -21,7 +21,7 @@ Create a new repository for today called **chocolate-pizza**. If you're both goi
 - When should you make a decision about a layout scheme?
 - When should you just build out the structure of the HTML?
 - When you should you add JS? Do you even add JS?
-- How much time to allow for the Peter Griffin CSS tweaking?
+- How much time to allow for the [Peter Griffin CSS tweaking](http://imgur.com/gallery/Q3cUg29)?
 
 ***PLAN YOUR WORK AND WORK YOUR PLAN***
 
