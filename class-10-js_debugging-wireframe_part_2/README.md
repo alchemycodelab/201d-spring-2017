@@ -8,25 +8,44 @@
 
 ### Schedule
 1. Announcements & Resource sharing
+1. Debuggin' & Clean Code Writin'
 1. Code review 
-1. Talk Topics
+1. CSS one more time y'all
+1. Go over lab
 
 ### Announcements
-* Quiz 6 due Sunday!
-* Learning journal due tonight.
+* Due Sunday: Quiz 6 & Salmon Cookies!
+* Learning journal due tomorrow morning.
 * Questions?
 
+### Things We Learned this Week
+```` 
+var lessonsFromWeek2 = {
+    concepts: ['domain modeling', 'object oriented programming'],
+    javascript: ['objects', 'constructor functions', 'this', 
+                'working with the DOM', 'event listeners', 'event handlers'],
+    html: ['forms','tables are difficult but look nice']
+};
+
+// from yesterday
+lessonsFromWeek2.css = [];
+lessonsFromWeek2.css.push( 'flexbox is weird but rewarding' );
+
+lessonsFromWeek2.javascript.push( 'event bubbling and how to stop it' );
+
+````
+
 ## Learning Objectives
-* (will be able to) __________ using _________.
-- Have nailed down the functionality of their retail/data/table app, as measured by successful completion of the daily code assignments of the previous four days.
-- Demonstrate understanding of fundamental CSS layout principles including block, inline, normal, relative, absolute, float, and fixed, as measured by successful completion of the daily code assignment and on a quiz administered in Canvas
-- Be able to engage in discussion and demonstrate understanding of advanced CSS layout topics such as frameworks or responsive design, as measured by observation of the instructional staff.
-- Be able to engage in discussion and demonstrate understanding of a variety of JS debugging techniques, including using console messages, the debugger statement, and debugging methodology as measured by observation of the instructional staff.
+* Track down and squash bugs in HTML, CSS, and JS using the Chrome Developer tools.
+* Write easy to understand code using best practices.
 
 ## Notes
-* Moar CSS layout
 * Debugging
-    * Debugging prevention
+    * Tools: Chrome's Dev tools & your brain / thinking process
+    * WHAT info is wrong? WHERE and WHEN in my code do I use that info?
+* Clean Code Writing
+    * Golden rule: write your code to be human friendly!
+* More CSS layout
 
 <hr></hr>
 
