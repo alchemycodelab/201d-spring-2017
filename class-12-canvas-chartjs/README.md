@@ -13,7 +13,7 @@
 1. Chart.js
 
 ### Announcements
-* 
+* Quiz 7 due tomorrow night! 
 *
 * Questions? Resources to share?
 
