@@ -37,18 +37,24 @@ var tracker = {
         while ( selectedIndices.length < 2 )  {
             var item = this.randomIndex(arr);
 
-            if (selectedIndices.length === 0) {
-                selectedIndices.push(item);
+            // using indexOf
+            if ( selectedIndices.indexOf( item ) === -1 ) {
+                selectedIndices.push( item );
             }
 
-            for ( var i = 0 ; i < selectedIndices.length; i ++ ) {
-                if ( selectedIndices[i] === item ) {
-                    break;
-                } else {
-                    selectedIndices.push( item );
-                    break;
-                }
-            }
+            // using for loop
+            // if (selectedIndices.length === 0) {
+            //     selectedIndices.push(item);
+            // }
+
+            // for ( var i = 0 ; i < selectedIndices.length; i ++ ) {
+            //     if ( selectedIndices[i] === item ) {
+            //         break;
+            //     } else {
+            //         selectedIndices.push( item );
+            //         break;
+            //     }
+            // }
         }
 
         return selectedIndices;
@@ -56,30 +62,54 @@ var tracker = {
 
     displayOptions: function () {
         // TODO get 2 random restaurants
-        // TODO append to DOM 
+        var randomRestaurants = this.getIndices( allRestaurants );
+        var index1 = randomRestaurants[0];
+        var index2 = randomRestaurants[1];
+        
+        var restaurant1 = allRestaurants[index1];
+        var restaurant2 = allRestaurants[index2];
+
+        // TODO append to DOM
+        this.option1.innerText = restaurant1.name;
+        this.option2.innerText = restaurant2.name;
+
+        this.option1.id = restaurant1.id;
+        this.option2.id = restaurant2.id;
+
     },
 
     tallyVote: function ( id ) {
         this.votes += 1;
 
-        for ( var i = 0; i < allRestaurants.length; i ++ ) {
-            var restaurant = allRestaurants[i];
+        // for loop
+        // for ( var i = 0; i < allRestaurants.length; i ++ ) {
+        //     var restaurant = allRestaurants[i];
+        //     if ( restaurant.id === id ) {
+        //         restaurant.votes += 1;
+        //     }
+        // }
+
+        // for each loop
+        allRestaurants.forEach(function moo ( restaurant ) {
             if ( restaurant.id === id ) {
                 restaurant.votes += 1;
             }
-        }
+        });
+        
 
-        if ( this.votes > 12 ) {
+
+        if ( this.votes > 3 ) {
             this.showResults();
         }
     },
 
     showResults: function () {
         this.displaySection.removeEventListener('click', voteHandler);
-        for ( var i = 0; i < allRestaurants.length; i ++ ) {
-            var restaurant = allRestaurants[i];
-            console.log( restaurant.name + ': ' + restaurant.votes );
-        }
+        console.table( allRestaurants );
+        // for ( var i = 0; i < allRestaurants.length; i ++ ) {
+        //     var restaurant = allRestaurants[i];
+        //     console.log( restaurant.name + ': ' + restaurant.votes );
+        // }
     }
 }
 
