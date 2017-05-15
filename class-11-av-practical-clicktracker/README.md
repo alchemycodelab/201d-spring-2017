@@ -1,18 +1,20 @@
 ## **Week 3: Working with Libraries**
-# Class 11: A/V, Practical Info, and Getting the Vote Tracker Project Started
+## Class 11: A/V, Practical Info, and Getting the Vote Tracker Project Started
+
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
+
 
 <hr></hr>
 
 ### Schedule
 1. Announcements & Resource sharing
 1. Code Review
-1. Two week review
 1. Media: images, audio, video
-1. Practical Info
+1. SEO
 
 ### Announcements
-* One on ones. Checking in with SJ - either walk and talk or sit down and look at some stuff!
-* Survey results.
+* One on ones. Checking in with SJ - let's check in, walk and talk, or sit down and look at code!
+* Surveys?
 * Learning about learning: trust the struggle, be the lobster, recognize when you're worrying about something completely different from last week (aka making progress).
 * Learning Journal due tomorrow morning!
 * Questions? Resources to share?
@@ -33,19 +35,17 @@ var thingsLearned = {
 ````
 
 ## Learning Objectives
-* (will be able to) __________ using _________.
 * Track user interaction via clicks using event listeners and event handlers.
 * Plan and start working on a new project using OOP.
 * Display images and data in the DOM using arrays and DOM manipulation methods.
 
 ## Notes
-* Review
-    * JS
-    * HTML
-    * CSS
-    * git
-* Media: images, audio, video
-* Practical Info
+* Media: video, audio
+    * changing attributes with JS
+    * [HTML Media element ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+* SEO
+    * keywords throughout your content
+    * stop search engines from indexing (or including) your site with the robots meta tag
 
 <hr></hr>
 
