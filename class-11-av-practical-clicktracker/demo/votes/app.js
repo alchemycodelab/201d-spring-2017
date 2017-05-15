@@ -55,15 +55,8 @@ var tracker = {
     },
 
     displayOptions: function () {
-        var indices = this.getIndices(allRestaurants);
-        var option1 = allRestaurants[indices[0]];
-        var option2 = allRestaurants[indices[1]];
-
-        this.option1.innerText = option1.name;
-        this.option2.innerText = option2.name;
-
-        this.option1.id = option1.id;
-        this.option2.id = option2.id;
+        // TODO get 2 random restaurants
+        // TODO append to DOM 
     },
 
     tallyVote: function ( id ) {
