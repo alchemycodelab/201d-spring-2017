@@ -39,7 +39,13 @@ var thingsLearned = {
 
 ## Notes
 * HTML Canvas element
+    * how to add to your HTML
+    * using JS to draw
 * Chart.js
+    * adding the library to your code
+    * creating a Chart
+        * call the constructor `new Chart`
+        * pass in data formatted in a specific way
 
 <hr></hr>
 
