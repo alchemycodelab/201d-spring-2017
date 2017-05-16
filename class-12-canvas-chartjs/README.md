@@ -14,7 +14,7 @@
 
 ### Announcements
 * Quiz 7 due tomorrow night! 
-*
+* One on ones today!
 * Questions? Resources to share?
 
 ## Lessons Learned
