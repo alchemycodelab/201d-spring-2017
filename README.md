@@ -17,7 +17,7 @@ Week 4     | Project Week
 
 ## Lecture Notes and Demo Code from Class
 
-Lecture notes and demo code will be placed in each class' `lecture/` and `demo/` subdirectories after they are presented. 
+Any lecture notes and demo code will be placed in each class' `lecture/` and `demo/` subdirectories after they are presented. 
 
 ## Assignments
 
@@ -45,8 +45,8 @@ This is your class repository (repo for short)! Check here for information about
 - Class-03/ 
 - etc.
 
-Each class has its own subdirectory that will be made available that morning.
+Each class has its own subdirectory that will be made available the day before.
 
 # Required Computer Setup
 
- To get your computer set up for class, go to [github.com/codefellowspdx/code-201-prework](https://github.com/codefellowspdx/code-201-prework#3-complete-the-setup-guide-for-your-computers-operating-system-multiple-downloads-are-involved-1-3-hours-depending-on-your-network-speed) and follow the instructions for your particular operating system. If you encounter problems, contact an instructor immediately.
+ To get your computer set up for class, go to [github.com/codefellowspdx/code-201-prework](https://github.com/codefellowspdx/code-201-prework#3-complete-the-setup-guide-for-your-computers-operating-system-multiple-downloads-are-involved-1-3-hours-depending-on-your-network-speed) and follow the instructions for your particular operating system. Note that we will be installing and using VS Code, not Atom. If you encounter problems, contact an instructor immediately.

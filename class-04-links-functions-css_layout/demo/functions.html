@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS Functions Sandbox</title>
+	</head>
+	<body>
+        <script>
+            // 'use strict';
+            /* parts of a function */
+
+            function anatomy ( name, parameters, statements, returnValue ) {
+                console.log( 'your function\'s name is:' + name );
+                console.log( 'your function\'s parameters are:' + parameters );
+                console.log( 'your function\'s statements are:' + statements );
+                console.log( 'your function returns:' + returnValue );
+                return name + ' is a great function name!';
+            }
+
+            // var result = anatomy ( 'anatomy', 'lots of things', 'stuff', 'something' );
+            // console.log( result );
+
+            // no name function
+            var anonymousFun = function () {
+                console.log( 'anon function' );
+            };
+
+            // no params
+            function empty () {
+                console.log( 'I take nothing' );
+            }
+
+            // no statements
+            function lazy () {}
+
+            // no return 
+            function returnNothing ( todo1, todo2 ) {
+                console.log( 'will not give anything back' );
+            }
+
+            // prompt( 'string' ); // prompt takes a string value 
+            // [1,2,3].forEach( function () { console.log() }); // forEach needs to have a function as parameter
+
+
+            var sentence = prompt( 'say something and I\'ll yell it to your face' );
+
+            function shouting ( param ) {
+                return param.toUpperCase();
+            }
+
+            shouting( 'yes' ); // YES
+            shouting( sentence ); // USER INPUT
+
+
+            
+
+
+        </script>
+	</body>
+</html> 
