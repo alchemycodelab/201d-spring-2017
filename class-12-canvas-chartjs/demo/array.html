@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas ChartJS demo</title>
+  </head>
+  <body>
+    <h1>FOR EACH INDEX OF</h1>
+    <ul>
+        <li id="monkeys">monkey</li>
+        <li id="cats">cat</li>
+        <li id="fish">fish</li>
+    </ul>
+    <script>
+        // GOAL: check if there is a monkey in the array of ids
+        
+        // get html elements
+        var animals = document.querySelectorAll( 'li' ); // [monkeys, cats, fish]
+        console.log( animals );
+
+        // using a for loop and comparing each element id to 'monkeys'
+        for ( var i = 0; i < animals.length; i ++ ){
+            // loop as many times as there are elements in animals
+            // and do stuff
+            console.log( 'using a for loop ', i, animals[i] );
+
+            if ( animals[i].id === 'monkeys' ){
+                console.log( 'found a monkey' );
+            }
+
+            if ( animals[i].id === 'donkeys' ){
+                console.log( 'found a donkey' );
+            }
+        }
+
+        // using a foreach loop to create an array of only ids
+        // using indexOf to search the array
+
+        // create array with only the ids
+        var animalIds = []; // ['monkeys', 'cats', 'fish'];
+        animals.forEach(function ( animal, index ) {
+            // do this stuff
+            console.log( 'using a forEach loop ', index, animal );
+            animalIds.push( animal.id );
+        });
+
+        // returns a number: the index of that element
+        // if it doesn't exist, it returns -1 
+        var monkeysIndex = animalIds.indexOf( 'monkeys' );
+        console.log( 'monkey?', monkeysIndex );
+
+        var donkeysIndex = animalIds.indexOf( 'donkeys' );
+        console.log( 'donkey?', donkeysIndex );
+        
+    </script>
+  </body>
+</html>

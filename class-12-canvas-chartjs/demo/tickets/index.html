@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Canvas & ChartJS demo</title>
+    <title>Canvas ChartJS demo</title>
+    <style>
+      #flights {
+        max-width: 700px;
+        max-height: 700px;
+      }
+    </style>
   </head>
   <body>
     <h1>$$$$</h1>
-    <canvas id="squares" width="500" height="500"></canvas>
+
+    <canvas id="squares" width="500" height="500">
+      <p>You don't support canvas.</p>
+    </canvas>
+    <canvas id="flights" width="500" height="500"></canvas>
+
+    <script src="chart.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

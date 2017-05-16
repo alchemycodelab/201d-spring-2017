@@ -16,7 +16,10 @@ var maze = {
     }
 };
 
-maze.move();
+
+
+
+
 
 
 /*  all together now! 
@@ -38,6 +41,8 @@ singLineOne(); // "She say's we've got to hold on to what we've got"
 
 
 
+
+
 now call the next line's function from the one that comes before it
 so when you call the first function, it will print the whole stanza
 singLineThree(); // "We've got each other and that's a lot for love
@@ -46,14 +51,24 @@ singLineThree(); // "We've got each other and that's a lot for love
 
 
 
+add a variable "singer" to the first line function
+update all of your consoles to show the singer
+singLineOne(); // "SJ: She say's we've got to hold on to what we've got"
+
+function singOne () {
+    var singer = 'SJ';
+    console.log( singer + ': line' );
+}
+
+function singTwo () {
+    console.log( singer + ': line' );
+}
 
 
 
 
 
-bonus round! choose one
-1. add all functions to an object called "song" - how do you "play" the song?
-2. move the functions out of order - just for the fun of it   
+move the functions out of order - just for the fun of it   
 do they still work? what if you call them in between creating them instead of from the console?
 what if you change them from function declarations to function expressions?                 
 
