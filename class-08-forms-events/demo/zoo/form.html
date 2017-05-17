@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sandbox</title>
+        <style>
+            body {
+                background-color: lightblue;
+            }
+
+            form {
+                margin: 50px auto;
+                max-width: 500px;
+                background-color: rgba( 255,255,255,.5 )
+            }
+
+            form:not(#addAnimal) {
+                text-align: center;
+                /*padding: 200px;*/
+
+            }
+
+            fieldset, #zoo {
+                max-width: 500px;
+                margin: 20px auto;
+            }
+
+            fieldset {
+                border: none;
+            }
+
+            fieldset > * {
+                display: block;
+            }
+
+            .exhibit {
+                border: dashed gray 1px;
+                height: 100px;
+                width: 100px;
+                text-align: center;
+                padding-top: 7%;
+                box-sizing: border-box
+            }
+
+            section div {
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- use an event handler in app.js and update the dom with the input-->
+        <form id="addAnimal" action="#">
+            <fieldset>
+                <label for="name" title="animal">Animal Name</label>
+                <input type="text" name="name" placeholder="animal name" required></input>
+
+                <label for="sound">Sound</label>
+                <input type="text" name="sound"></input>
+            </fieldset>
+
+            <fieldset>
+                <input type="submit" value="Add to Zoo"></input>
+            </fieldset>
+        </form>
+        <section id="zoo"></section>
+        <section id="rating">
+            <form id="star-rating" action="#">
+                <fieldset>
+                    <input type="radio" name="stars" value="1">
+                        <label>1</label>
+                    </input>
+                    <input type="radio" name="stars" value="2">
+                        <label>2</label>
+                    </input>
+                    <input type="radio" name="stars" value="3">
+                        <label>3</label>
+                    </input>
+                    <input type="radio" name="stars" value="4">
+                        <label>4</label>
+                    </input>
+                    <input type="radio" name="stars" value="5">
+                        <label>5</label>
+                    </input>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="Add to Zoo"></input>
+                </fieldset>
+            </form>
+        </section>
+
+        <script src="form.js"></script>
+    </body>
+</html>
