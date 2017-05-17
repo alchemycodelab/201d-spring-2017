@@ -9,24 +9,24 @@
 ### Schedule
 1. Announcements & Resource sharing
 1. Code review
-1. local storage
-1. UI/UX and more CSS?
+1. LocalStorage
+1. UI/U
 
 ### Announcements
 * Quiz 7 due tonight and Quiz 8 due tomorrow night!
-*
+* Continuing one on ones.
 * Questions? Resources to share?
 
 ## Lessons Learned
 ```` 
 var thingsLearned = {
     concepts: ['domain modeling', 'object oriented programming', 'the DOM', 'version control with git'],
-    tools: ['git', 'chrome dev tools', 'visual studio code', 'terminal'],
+    tools: ['git', 'chrome dev tools', 'visual studio code', 'terminal', 'Chartjs'],
     javascript: ['variables', 'for, while, do while loops', 'functions',
                  'data types', 'arrays', 'objects', 'constructor functions', 'this', 
                  'working with the DOM', 'event listeners', 'event handlers',
                  'event bubbling and how to stop it'],
-    html: ['semantic tags', 'lists', 'forms','tables are difficult but look nice'],
+    html: ['semantic tags', 'lists', 'forms','tables are difficult but look nice','canvas'],
     css: ['syntax', 'box model', 'flexbox is weird but rewarding']
 };
 
@@ -38,7 +38,13 @@ var thingsLearned = {
 
 ## Notes
 * local storage
-* UI and UX and more CSS?
+    * why isn't our data persistent?
+    * built in browser storage
+* UI and UX
+    * user interface: how the user can interact with the web page
+        * [goodui.org](http://www.goodui.org/)
+    * user experience: how the interactions affect the user's perception and experience
+        * [user onboarding teardowns](https://www.useronboard.com/onboarding-teardowns/)
 
 <hr></hr>
 
