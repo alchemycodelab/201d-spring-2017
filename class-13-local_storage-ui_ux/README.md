@@ -10,11 +10,14 @@
 1. Announcements & Resource sharing
 1. Code review
 1. LocalStorage
-1. UI/U
+1. UI/UX
 
 ### Announcements
 * Quiz 7 due tonight and Quiz 8 due tomorrow night!
 * Continuing one on ones.
+* Feedback results
+    * Knowing enough?
+    * Yay exercises/pairing during lecture!
 * Questions? Resources to share?
 
 ## Lessons Learned
