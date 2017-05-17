@@ -13,7 +13,7 @@
 1. UI/UX
 
 ### Announcements
-* Quiz 7 due tonight and Quiz 8 due tomorrow night!
+* Quiz 7 due <s>tonight</s> tomorrow night and Quiz 8 due tomorrow night!
 * Continuing one on ones.
 * Feedback results
     * Knowing enough?
