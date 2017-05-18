@@ -1,13 +1,11 @@
 # Class 20 -  Project Week: Milestone 5
 ## Presentation Day
 
-* Remember that you are required to attend the 301 presentations starting at 10:30a
-
-* Your presentations should take approximately **20 minutes**. 
+* Your presentations should take approximately **20 minutes**.
 
 * Have one team member track time, and help keep things moving forward.
 
-* Expect and be ready to answer questions at the end of your presentation. 
+* Expect and be ready to answer questions at the end of your presentation.
 
 * Have fun!!
 
@@ -35,4 +33,4 @@ Your grade is based on your individual effort and your project's technical merit
     * Deployed live on the Internet
 
 ## Congratulations!
-Thanks for all your hard work through this course! We can't wait to see where you go with your new wizard powers. :)
+Thanks for all your hard work through this course! :)
