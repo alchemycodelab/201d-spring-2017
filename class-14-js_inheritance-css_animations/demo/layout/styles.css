@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 50px 20%;
+}
+
+
+
+/* slide header down on hover */
+header {
+    border: solid black 25px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 300px;
+    top: -300px;
+    position: relative;
+    transition: top 2s ease-out;
+}
+
+header:hover {
+    top: 0;
+}
+
+header ul { 
+    list-style: none;
+}
+
+
+
+/* open footer when mouseover aside */
+article footer {
+    opacity: 0;
+    height: 0;
+    transition: all 3s ease;
+}
+
+article footer.show {
+    opacity: 1;
+    height: 200px;
+}
+
+
+
+/* blink */
+h2 {
+    animation: blink 1s ease 0s infinite;
+}
+
+
+@keyframes blink {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0;
+    }
+}

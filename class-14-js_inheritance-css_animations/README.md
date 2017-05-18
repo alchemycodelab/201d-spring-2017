@@ -20,7 +20,8 @@
         Joe  |  Cynthia
         Kate  |  Mark
         Andrew  |  Stephanie
-* Tomorrow after lunch your team should have X ideas.
+* Tomorrow after lunch your team should have at least two ideas you're excited to work on. We'll discuss them and see which would be best for you to do! [Basic Project requirements listed here.](https://github.com/codefellowspdx/201d-spring-2017/tree/master/class-09-css_wireframe_part_1#announcements)
+    * Monday you will need to have a full proposal for the final project idea. More details about that tomorrow.
 * Questions? Resources to share?
 
 ## Lessons Learned
@@ -43,8 +44,14 @@ var thingsLearned = {
 - Add visually pleasing animations to a web page using CSS animations.
 
 ## Notes
-* JS Inheritence
 * CSS Animations
+    * [MDN animatable properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+    * Transitions ~ when an element changes state: on hover
+    * Keyframes ~ not tied to a state change
+        * [another useful article](https://robots.thoughtbot.com/css-animation-for-beginners)
+* JS Inheritence
+    * Create new objects that include another objects properties and methods
+    * `Array.hasPropertyOf` comes from `Object.hasPropertyOf`
 
 <hr></hr>
 
