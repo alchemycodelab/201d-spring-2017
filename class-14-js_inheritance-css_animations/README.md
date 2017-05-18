@@ -1,5 +1,8 @@
 ## **Working with Libraries**
 # Class 14: CSS Animations
+
+[Schedule](#schedule) | [Announcements](#announcements) | [Objectives](#learning-objectives) | [Notes](#notes) | [Readings](#readings)
+
 <hr></hr>
 
 ### Schedule
