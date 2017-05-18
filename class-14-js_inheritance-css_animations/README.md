@@ -14,12 +14,12 @@
 ### Announcements
 * Project Week teams! 
 
-        Team A  |  Team B
-        ----|----
-        Meryl  |  Haley
-        Joe  |  Cynthia
-        Kate  |  Mark
-        Andrew  |  Stephanie
+Team A  |  Team B
+----|----
+Meryl  |  Haley
+Joe  |  Cynthia
+Kate  |  Mark
+Andrew  |  Stephanie
 * Tomorrow after lunch your team should have at least two ideas you're excited to work on. We'll discuss them and see which would be best for you to do! [Basic Project requirements listed here.](https://github.com/codefellowspdx/201d-spring-2017/tree/master/class-09-css_wireframe_part_1#announcements)
     * Monday you will need to have a full proposal for the final project idea. More details about that tomorrow.
 * Questions? Resources to share?
