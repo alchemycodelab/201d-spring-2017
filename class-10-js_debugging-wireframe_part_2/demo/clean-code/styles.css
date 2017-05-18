@@ -1,0 +1,52 @@
+/*
+
+    TOC
+    - overall styles
+    - target styles
+    - link styles
+
+    - main elements or containers
+        body, main, container elements
+    - each container
+        things inside of it 
+
+*/
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/*                           target styles  */
+
+#target {
+    margin: 30% auto;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+section {
+    position: absolute;
+    margin: 0 auto;
+    padding: 12% 12%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    box-sizing: border-box;
+}

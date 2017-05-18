@@ -3,21 +3,22 @@
 <a id="top"></a>
 # Today's Plan: Week 1, Monday Lecture
 
+**Agenda**
+
 This first day of class is an all-day session with the students that is mostly lecture.
 
-- [Kickoff! (with slides)](#kickoff) *[30 minutes]*
-- [Academic Overview (with slides)](#academic) *[60 minutes]*
-- [Unix & Git (with slides)](#ug) *[60 minutes]*
-- [Go over the assigned readings](#readings) *[30 minutes]*
+- [Kickoff!](#kickoff)
+- [Academic Overview](#academic)
+- [Tools: Terminal, Git, VS Code](#ug)
+  - [Verify Student Toolbelts](#toolbelt)
+- [Go over the assigned readings](#readings)
 
 *Lunch Break*
 
-- [Continuing going over the assigned readings](#readings) *[30-60 minutes]*
-- [Code demo to prep for lab](#code) *[60 minutes]*
-- [LAB](#lab) *[until 5:00]*
+- [Continuing going over the assigned readings](#readings)
+- [Code demo to prep for lab](#code)
+- [LAB](#lab)
   - Write code as outlined in the lab assignment
-  - [Set up a JavaScript linter](#linter) *[15 minutes after Unix/Git is finished]*
-  - [Verify Student Toolbelts](#toolbelt) *[30-45 minutes]*
 
 **Learning Objectives**
 
@@ -70,7 +71,6 @@ By doing a few quick tests and exercises, as detailed below, ensure that student
 
 [Slides: 3-unix.pdf](slides/3-unix.pdf)
 [Slides: 4-git-intro.pdf](slides/4-git-intro.pdf)
-[Slides: 5-git-branching.pdf](slides/5-git-branching.pdf)
 
 Slides to introduce students to core concepts of file management from the command line and the fundamentals of Git and GitHub.
 

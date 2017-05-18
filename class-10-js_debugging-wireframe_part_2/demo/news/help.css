@@ -1,0 +1,81 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/*                                header styles */
+header {
+    background-color: lightblue;
+    padding: 20px 0
+}
+
+header h1 {
+    font-size: 5em;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    padding: 20px 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/*                                 main article styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.25em;
+}
+
+article {
+    padding: 10%;
+    line-height: 28px;
+}
+
+article footer {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 1rem;
+    border-top: dashed 2px black;
+    padding-top: 20px;
+}
+
+article footer .author-image {
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+article footer .svg {
+    height: 40px;
+    width: 50px;
+}
+
+article footer h3 {
+    display: inline;
+}
+
+
+/*                                 main article styles */
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

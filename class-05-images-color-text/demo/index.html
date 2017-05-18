@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Basically WordPress</title>
+        <style>
+            * {
+                border: dotted 1px blue;
+                background: white;
+            }
+
+            html, body {
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                height: 200px;
+                position: fixed;
+                width: 100%;
+            }
+
+            #container {
+                height: fit-content;
+                margin-top: 200px;
+            }
+
+            #container > * {
+                min-height: 500px;
+                padding: 20px;
+                box-sizing: border-box;
+                width: calc(50% - 4px);
+                display: inline-block;
+            }
+
+            footer {
+                height: 37%;
+            }
+        </style>
+    </head>
+    <body>
+        <!--  Create a standard blog layout: header, main content, sidebar, footer -->
+        <header>
+            <h1>no a blog </h1>
+        </header>
+        <div id="container">
+            <main>
+            </main>
+            <aside>
+            </aside>
+        </div>
+        <footer>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sandbox</title>
+	</head>
+	<body>
+        <script>
+
+            function getName () {
+                var name;
+                name = prompt("Give me a name");
+                console.log("Name: " +name);
+                totalTallys();
+            }   
+            
+            function getVerb () {
+                var verb;
+                verb = prompt("Give me a verb ending with 'ing'");
+                console.log("Verb: " +verb);
+            }
+
+            function getNoun () {
+                var noun;
+                noun = prompt("Give me a noun");
+                console.log("Noun: " +noun);
+
+                // console.log( total ); // not available
+                if ( noun === 'hammer' ) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+            
+            function getAdj () {
+                var adjective;
+                adjective = prompt("Give me an adjective");
+                console.log("Adjective: " +adjective);
+
+                if ( adjective === 'orange' ) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+
+            function totalTallys () {
+                var total = 0;
+
+                total += getAdj();
+                total += getNoun();
+
+                return total;
+            }
+
+            alert( 'you got ' + totalTallys() + ' questions right' );
+        </script>
+	</body>
+</html>
