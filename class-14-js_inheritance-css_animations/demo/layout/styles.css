@@ -13,10 +13,12 @@ header {
     height: 300px;
     top: -300px;
     position: relative;
-    transition: top 2s ease-out;
+    transform: skew(20deg);
+    transition: top 2s ease-out, transform 4s ease;
 }
 
 header:hover {
+    transform: skew(-20deg);
     top: 0;
 }
 
