@@ -45,10 +45,9 @@ h2 {
     animation: blink 1s ease 0s infinite;
 }
 
-
 @keyframes blink {
     from {
-        opacity: 1
+        opacity: 1;
     }
     to {
         opacity: 0;
