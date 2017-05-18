@@ -5,20 +5,6 @@
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-      <!--
-        TIP 
-        to quickly disable a class for an element, add "x-" in front of the attribute name
-        for example: <ul x-class="fixed-bottom-left">
-
-        BORDER COLOR KEY
-        blue solid: big container elements
-        red dash: smaller container elements
-        green dots: content elements
-        (don't forget, borders do not encompass margins!)
-
-        LAST THING
-        try resizing your browser and see how that affects things
-      -->
     <header>
         <h1>This is a header about being a header.</h1>
          <ul>
@@ -30,6 +16,7 @@
     </header>
     <main>
         <article>
+            <h2>Two cats having a chat</h2>
             <p>
                 Purr when being pet. Climb a tree, wait for a fireman jump to fireman then scratch his face.
                 Meow swat turds around the house so step on your keyboard while you're gaming and then turn
@@ -74,7 +61,15 @@
             </ul>
         </nav>
     </footer>
-  
+    <script>
 
+        var aside = document.querySelector( 'aside' );
+        var artfooter = document.querySelector( 'footer' );
+
+        aside.addEventListener( 'click', function () {
+            artfooter.classList.add( 'show' );
+        });
+        
+    </script>
   </body>
 </html>

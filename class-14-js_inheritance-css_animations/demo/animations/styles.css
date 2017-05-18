@@ -1,113 +1,101 @@
-/* Play with margins */
-.auto-side-margins {
-    margin: 0 auto;
+body {
+    margin: 0;
+    padding: 50px 20%;
 }
 
-.big-margins {
-    margin: 300px;
-}
 
-/* Play with positioning */
-/* What happens if you nest different position types
-   inside of each other? eg. an absolute inside a relative 
-   or an absolute inside a fixed
-*/
+/* slide header down on hover */
+header {
+    border: solid black 25px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 300px;
 
-.relative {
+    top: -300px;
+    transform: skew(20deg);
     position: relative;
+
+    transition: transform 4s ease 2s, top 2s ease;
+
+    /*transition-property: top;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 3s;*/
 }
 
-.relative-bottom {
-    position: relative;
-    bottom: 20px;
+header:hover {
+    transform: skew(-20deg);
+    top: 0;
+    
 }
 
-.fixed-right {
-    position: fixed;
-    right: 0;
+header ul { 
+    list-style: none;
 }
 
-.fixed-bottom-left {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+header:hover h1 {
+    font-size: 4em;
+    color: purple;
+    transition: all 5s ease;
 }
 
-.absolute-right {
-    position: absolute; 
-    right: 500px;
-}
-
-.absolute-top {
-    position: absolute; 
-    right: 30px;
-    top: 5px;
-}
-
-.float-right {
-    float: right;
-}
-
-.float-clear {
-    clear: both;
-}
-
-/* Play with widths and heights */
-/* How do they affect different position types? display types? */
-.half-percentage-width {
-    width: 50%;
-}
-
-.half-percentage-height {
-    height: 50%;
-}
-
-.half-viewport-height {
-    height: 50vh;
-}
-
-.half-viewport-width {
-    width: 50vh;
-}
-
-.set-width-600 {
-    width: 600px;
-}
-
-.set-height-600 {
-    height: 600px;
-}
-
-/* Play with display */
-
-.flexy {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* horizontal spacing */
-    align-items: flex-end;  /* vertical spacing */
-}
-
-.inline {
-    display: inline;
-}
-
-.inline-block {
-    display: inline-block;
+article p:hover{
+    transform: scaleY(2) skewY(20deg) rotate(-15deg);
+    transition: transform 10s linear;
 }
 
 
 
-
-/*   Outlines */
-
-header, main, footer {
-    border: solid darkblue 1px;
+/* open footer when mouseover aside */
+article footer {
+    /*display: none;*/
+    opacity: 0;
+    height: 0;
+    transition: all 3s ease;
 }
 
-h1, p, li {
-    border: dotted green 1px;
+article footer.show {
+    opacity: 1;
+    height: 200px;
+    /*display: block;*/
 }
 
-nav, ul, aside, article {
-    border: dashed red 1px;
+
+
+/* blink */
+h2 {
+    animation: blink .5s ease 0s infinite alternate;
+    /* 
+        animation-name
+        animation-duration
+                 -timing-function
+                 -delay
+                 -iteration-count
+                 -direction
+                 -fill-mode
+                 -play-state
+    */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        color: black;
+        font-size: 1em;
+        transform: rotate(0deg);
+    }
+    50% {
+        color: purple;
+        font-size: 1.3em;
+        transform: rotate(20deg);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        opacity: .2;
+        color: green;
+        font-size: 1em;
+        transform: rotate(0deg);
+    }
 }

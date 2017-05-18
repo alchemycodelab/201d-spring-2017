@@ -41,9 +41,11 @@
 
         var cookies = new Store ( 'cookie store', 'alberta', 'cookies' );
         cookies.orderStock();
+        cookies.ingredients = [];
 
         var records = new Store ( 'record store', 'alberta', 'records' );
         records.orderStock();
+        records.genres =[];
 
 
 
@@ -53,17 +55,30 @@
         function RecordStore ( name, location, product ) {
             Store.call( this, name, location, product );
         }
+
         RecordStore.prototype = Object.create( Store.prototype ); // sets Store object as "parent" or prototype & gives us access to owner
         RecordStore.prototype.constructor = RecordStore; // resets our constructor property to what it should be
         
         
-        // Cookie Store constructor
+        // // Cookie Store constructor
         function CookieStore ( name, location, product, ingredients ) {
-            // create Cookie store!
+            Store.call( this, name, location, product );
+            this.ingredients = ingredients;
         }
 
-        
+        CookieStore.prototype = Object.create( Store.prototype );
+        CookieStore.prototype.constructor = CookieStore;
 
+        CookieStore.prototype.orderStock = function () {
+            console.log( 'ordering ' + this.ingredients + ' to make ' 
+                            + this.product + ' for ' + this.name );
+        }
+
+
+
+        var cookies1 = new CookieStore( 'cookiez', 'pearl', 'cookies', 'chocolate, flour, eggs' );
+        cookies1.orderStock();
+        
         var records1 = new RecordStore( 'recordz', 'SE', 'records' );
         records1.orderStock();
         records1.announceSale();
