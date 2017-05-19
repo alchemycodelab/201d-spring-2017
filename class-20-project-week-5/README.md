@@ -1,12 +1,11 @@
 # Class 20 -  Project Week: Milestone 5
 ## Presentation Day
 
+![so proud](https://media.giphy.com/media/BzAl7rKoY4Zig/giphy.gif?response_id=591f68ee7f7b217ab7679e5e)
+
 * Your presentations should take approximately **20 minutes**.
-
 * Have one team member track time, and help keep things moving forward.
-
 * Expect and be ready to answer questions at the end of your presentation.
-
 * Have fun!!
 
 ## Grading

@@ -1,4 +1,5 @@
 # Project Week, Day 1
+![destress monday](https://media.giphy.com/media/xThuWfz7fNOXwiBLY4/giphy.gif)
 
 ### Final Project Rules and Process
 For your final project, your task is to work with a team to build a web site that simulates a real-world product, service, or game.
@@ -51,4 +52,4 @@ Here's the process that we'll be using for project week.
       * Push it to GitHub and [add your team members as Collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
 
 Make a plan, and get to work!
-Note: today through Wednesday you should be focusing on your project's functionality. Don't style things beyond what's absolutely neccessary.
+Note: today through Wednesday you should be focusing on your web site's functionality. Don't style things beyond what's absolutely neccessary.

@@ -1,6 +1,8 @@
 # Class 17 -  Project Week: Milestone 2
 ## Development phase
 
+![motivational toast](https://media.giphy.com/media/D81ZtVnn5Orio/giphy.gif)
+
 Now that your project is launched, here's how to organize the development efforts of your team:
 
 * Use [GitHub Issues](https://guides.github.com/features/issues/) or another project management tracker to manage and divide up the work between your team members. The following steps are specific to GH Issues, but can be similarly followed with other project apps.
