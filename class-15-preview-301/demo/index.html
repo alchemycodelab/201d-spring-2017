@@ -68,6 +68,9 @@
             });
 
             function createCell ( cellType, content ) {
+                // var $headerCell = $( '<th/>' ).text( 'Name' ); 
+                // ^ that line does the same thing as this function!
+
                 var newCell = document.createElement( cellType );
                 newCell.innerText = content;
                 return newCell;
@@ -78,12 +81,12 @@
 
         // build a table with jQuery
         function buildWithJQ () {
-            $headerCell = $( '<th/>' ).text( 'Name' );
-            $headerRow = $( '<tr/>' ).append( $headerCell );
+            var $headerCell = $( '<th/>' ).text( 'Name' );
+            var $headerRow = $( '<tr/>' ).append( $headerCell );
             $( '#jq' ).append( $headerRow );
 
             data.forEach( ( person ) => {
-                $personRow = $( '<tr/>' );
+                var $personRow = $( '<tr/>' );
                 $personRow.append( $( '<td/>' ).text( person.name ) );
 
                 for ( var i = 0; i < person.numStickers; i ++ ) {
@@ -107,5 +110,10 @@
             return emojis[randI];
         }
     </script>
+
+    <script src="Card.js"></script>
+    <script src="User.js"></script>
+    <script src="Session.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
