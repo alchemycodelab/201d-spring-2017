@@ -24,10 +24,10 @@ a new branch for your work on the next question!
 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
-    var sum = a + b;
-    var str = "The sum of " + a + " and " + b + " is " + sum + ".";
+    var c = a + b;
+    var str = "The sum of " + a + " and " + b + " is " + c + ".";
     
-    return [ sum, str ];
+    return [ c, str ];
 
     // return [ sum, "The sum of " + a + " and " + b + " is " + sum + "."];
 }
@@ -61,11 +61,14 @@ create a new branch for your work on the next question!
 
 // Write your code here
 function multiply(a,b){ //eslint-disable-line
-
+    var total = a * b;
+    var phrase = 'The product of ' + a + ' and ' + b  + ' is ' + total + '.';
+    
+    return [total, phrase];
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 
 /////////////////////////////////////
