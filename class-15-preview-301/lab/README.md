@@ -13,3 +13,5 @@ Catch up with any overdue assignments, do some general review, and prep for proj
         - A diagram of relevant details from your project's domain model
         - A few wireframe sketches of your project's pages
         - A list of features marked as part of MVP or stretch goals.
+
+- Plan something exciting/relaxing/rejeuvenating this weekend. Right now!

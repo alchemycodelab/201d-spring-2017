@@ -8,12 +8,12 @@
 
 ### Schedule
 1. Announcements & Resource sharing
-1. Review ALL the things!
+1. Look back & look forward: jQuery preview
 1. Plan a project together
-1. jQuery preview
+1. Add GH Repo Collaborators
 
 ### Announcements
-* Will release entrance exam at 3pm (maybe). It's due Sunday night. 
+* Will release entrance exam this afternoon. It's due Sunday night. 
 * Questions? Resources to share?
 
 ## Lessons Learned
@@ -40,3 +40,6 @@ var thingsLearned = {
 * Plan a project
     * Get an overall picture of where you're going, then BREAK it into managable chunks.
     * Your code should START SIMPLE. What's the LEAST you can do to try something and see if it works?
+* Add collaborators to a GH Repo
+    * in the repo page, go to `Settings > Collaborators & teams`
+    * type in  your team mates' GitHub usernames, select them, and click the `Add Collaborator` button
