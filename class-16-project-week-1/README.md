@@ -33,12 +33,11 @@ Here's the process that we'll be using for project week.
 
  **TIP:** Use pencil and paper to diagram and sketch.
 
-   Proposals, written or electronic, as per the project description, are due for review with the instruction team. First come, first served!
+   Proposals, written or electronic, are due for review with the instruction team.
 
   **Ideally done by 12pm today.**
 
-2.
-Here are some tips on how to organize your team during the launch phase.
+2. Here are some tips on how to organize your team during the launch phase.
 
  * Elect a Launch Driver who will be responsible for the following:
     * Driving the coding of the initial scaffolding phase.
@@ -52,3 +51,4 @@ Here are some tips on how to organize your team during the launch phase.
       * Push it to GitHub and [add your team members as Collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
 
 Make a plan, and get to work!
+Note: today through Wednesday you should be focusing on your project's functionality. Don't style things beyond what's absolutely neccessary.
